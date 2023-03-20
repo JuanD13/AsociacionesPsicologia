@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Experimento Asociaciones</title>
+        <script src="./js/Asiciaciones.js" ></script>
+    </head>
+    <body>
+        <section id="pantalla-inicio">
+            <h1 class="mensajes">A continuación selecciona una de las tres obras que más se asemeja en estilo a la obra de muestra</h1>
+            <button type="button" id="empezar">¡Empezar!</button>
+        </section>
+
+        <section id="prueba">
+            <div class="info-prueba">
+                <p>Aciertos: <span id="aciertos">0</span></p>
+                <p>Ensayo: <span id="ensayo">0</span></p>
+            </div>
+
+            <div class="pinturas">
+                <div class="objeto-muestra">
+                    <img src="./css/assets/1.jpg" alt="pintura_muestra"/>
+                    <H2>Objeto Muestra</H2>
+                </div>
+
+                <div class="seleccion">
+                    <label class="opciones-pintura" for="opcion-1">
+                        <img src="./css/assets/2.jpg"/>
+                    </label>
+                    <input type="button" name="opciones" id="opcion-1"/>
+
+                    <label class="opciones-pintura" for="opcion-2">
+                        <img src="./css/assets/3.jpg"/>
+                    </label>
+                    <input type="button" name="opciones" id="opcion-2"/>
+
+                    <label class="opciones-pintura" for="opcion-3">
+                        <img src="./css/assets/4.jpg"/>
+                    </label>
+                    <input type="button" name="opciones" id="opcion-3"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="break">
+            <h1 class="mensajes">Es momento de que tomes un descanso antes de continuar</h1>
+            <button type="button">Dale click cuando desees continuar</button>
+        </section>
+
+        <section id="finalizacion">
+            <h1 class="mensajes">¡Finalizaste! Ahora revisa tus resultados y responde las preguntas de la guía.</h1>
+            <button type="button">Dale click para repetir el experimento</button>
+        </section>
+    </body>
+</html>
